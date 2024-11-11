@@ -7,7 +7,7 @@
 <body>
     <div class="container">
         <h1>Data Anggota</h1>
-        <a href="create.php" class="btn-tambah">Tambah Anggota</a>
+        <a href="create.html" class="btn-tambah">Tambah Anggota</a><br><br>
         <?php
         include "koneksi.php";
 

@@ -31,20 +31,21 @@ th, td {
 }
 
 .btn-tambah {
-    background-color: #F2F2F2;
-    color: #000000;
-    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    display: inline-block;  /* Mengubah tampilan jadi inline-block supaya bisa memiliki padding dan margin seperti tombol */
     padding: 10px 20px;
     font-size: 16px;
-    text-decoration: none;
+    text-decoration: none;  /* Menghapus garis bawah */
     cursor: pointer;
     border: none;
     border-radius: 3px;
 }
 
 .btn-tambah:hover {
-    background-color: #e5e5e5;
+    background-color: #45a4b0;  /* Memberikan warna latar belakang saat hover */
 }
+
 
 form {
     margin-top: 20px;
@@ -63,9 +64,9 @@ input[type="text"] {
     border-radius: 3px;
 }
 
-.radio-group {
+/* .radio-group {
     display: inline-block;
-}
+} */
 
 input[type="radio"] {
     margin-right: 5px;
@@ -86,5 +87,41 @@ button[type="submit"]:hover, .btn-kembali:hover {
 }
 
 .btn-kembali {
-    background-color: #e7e7e7;
+    background-color: #f44336;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.radio-group {
+    display: inline-block; /* Menjadikan kontainer radio group sebagai inline-block */
+    margin-top: 10px; /* Agar ada sedikit jarak di atas grup */
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 5px; /* Memberikan jarak antara radio button dan label */
+    vertical-align: middle; /* Menyelaraskan radio button dengan label */
+}
+
+.radio-group label {
+    display: inline-block; /* Membuat label sejajar dengan radio button */
+    vertical-align: middle; /* Menyelaraskan label dengan radio button */
+}
+
+.kembali {
+    background-color: #f44336;  /* Warna merah */
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.kembali:hover {
+    background-color: #e53935; /* Warna merah sedikit lebih gelap saat hover */
 }
